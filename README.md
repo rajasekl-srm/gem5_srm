@@ -50,7 +50,7 @@ blackscholes_simsmall_1.rcS
 
 
 
-![Terminal Output](images/Generate rcS Script.png)
+![Terminal Output](images/Generate_rcs.png)
 
 
 ## ⚙️ Step 4: Run Full-System Simulation
@@ -67,7 +67,7 @@ configs/example/arm/starter_fs.py \
 
 
 
-![Terminal Output](images/Run Full-System Simulation.png)
+![Terminal Output](images/Run_Full.png)
 
 
 ## ⚙️ Step 5: Validate Output
@@ -79,7 +79,7 @@ cd fs_results/blackscholes_simsmall_1
 
 
 
-![Terminal Output](images/Validate Output.png)
+![Terminal Output](images/Validate_Output.png)
 
 
 
