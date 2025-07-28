@@ -48,6 +48,8 @@ bash gen_rcs.sh -p blackscholes -i simsmall -n 1
 This generates:
 blackscholes_simsmall_1.rcS
 
+
+
 ![Terminal Output](images/Generate rcS Script.png)
 
 
@@ -63,6 +65,8 @@ configs/example/arm/starter_fs.py \
 --script=arm-gem5-rsk/parsec_rcs/blackscholes_simsmall_1.rcS
 
 
+
+
 ![Terminal Output](images/Run Full-System Simulation.png)
 
 
@@ -71,6 +75,9 @@ configs/example/arm/starter_fs.py \
 cd fs_results/blackscholes_simsmall_1
 
 # Check m5out, output logs, and stats.txt
+
+
+
 
 ![Terminal Output](images/Validate Output.png)
 
