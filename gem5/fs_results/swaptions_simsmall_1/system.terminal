@@ -1,0 +1,71 @@
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd070]
+[    0.000000] Linux version 4.18.0+ (arm-employee@arm-computer) (gcc version 7.4.0 (Ubuntu/Linaro 7.4.0-1ubuntu1~18.04.1)) #1 SMP PREEMPT Wed Nov 6 14:10:00 GMT 2019
+[    0.000000] Machine model: V2P-CA15
+[    0.000000] Memory limited to 2048MB
+[    0.000000] cma: Reserved 16 MiB at 0x00000000ff000000
+[    0.000000] random: get_random_bytes called from start_kernel+0xa8/0x3e8 with crng_init=0
+[    0.000000] percpu: Embedded 23 pages/cpu @(____ptrval____) s53976 r8192 d32040 u94208
+[    0.000000] Detected PIPT I-cache on CPU0
+[    0.000000] CPU features: enabling workaround for ARM erratum 832075
+[    0.000000] CPU features: enabling workaround for ARM erratum 834220
+[    0.000000] CPU features: enabling workaround for EL2 vector hardening
+[    0.000000] CPU features: detected: Kernel page table isolation (KPTI)
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 516096
+[    0.000000] Kernel command line: console=ttyAMA0 lpj=19988480 norandmaps root=/dev/vda1 rw mem=2GB
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Memory: 2034324K/2097152K available (6910K kernel code, 452K rwdata, 2312K rodata, 448K init, 217K bss, 46444K reserved, 16384K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=1.
+[    0.000000] 	Tasks RCU enabled.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] GIC: GICv2 detected, but range too small and irqchip.gicv2_force_probe not set
+[    0.000000] clk_gem5_energy_ctrl: No cpu-map in DT! Falling back to old detection method!
+[    0.000000] clk_gem5_energy_ctrl: No clusters in DT! Falling back to using CPU topology!
+[    0.000002] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+[    0.000091] arch_timer: Unable to find a suitable frame in timer @ 0x000000002a810000
+[    0.000097] Failed to initialize '/timer@2a810000': -22
+[    0.000153] Console: colour dummy device 80x25
+[    0.000163] Calibrating delay loop (skipped) preset value.. 9994.24 BogoMIPS (lpj=19988480)
+[    0.000169] pid_max: default: 32768 minimum: 301
+[    0.000222] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000246] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.024104] ASID allocator initialised with 128 entries
+[    0.032102] Hierarchical SRCU implementation.
+[    0.048116] smp: Bringing up secondary CPUs ...
+[    0.048119] smp: Brought up 1 node, 1 CPU
+[    0.048122] SMP: Total of 1 processors activated.
+[    0.048126] CPU features: detected: Privileged Access Never
+[    0.048129] CPU features: detected: User Access Override
+[    0.048132] CPU features: detected: 32-bit EL0 Support
+[    0.048135] CPU features: detected: Scalable Vector Extension
+[    0.049632] SVE: maximum available vector length 16 bytes per vector
+[    0.049634] SVE: default vector length 16 bytes per vector
+[    0.049638] CPU: All CPU(s) started at EL2
+[    0.049644] alternatives: patching kernel code
+[    0.050448] devtmpfs: initialized
+[    0.051156] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.051162] futex hash table entries: 256 (order: 2, 16384 bytes)
+[    0.052081] NET: Registered protocol family 16
+[    0.136247] cpuidle: using governor menu
+[    0.136315] vdso: 2 pages (1 code @ (____ptrval____), 1 data @ (____ptrval____))
+[    0.136321] hw-breakpoint: found 16 breakpoint and 16 watchpoint registers.
+[    0.136794] DMA: preallocated 256 KiB pool for atomic allocations
+[    0.136797] Serial: AMBA PL011 UART driver
+[    0.136999] OF: amba_device_add() failed (-2) for /watchdog@2a490000
+[    0.137146] OF: amba_device_add() failed (-2) for /watchdog@2b060000
+[    0.137255] 1c090000.uart: ttyAMA0 at MMIO 0x1c090000 (irq = 13, base_baud = 0) is a PL011 rev3
+[    0.139371] console [ttyAMA0] enabled
+[    0.139757] 1c0a0000.uart: ttyAMA1 at MMIO 0x1c0a0000 (irq = 14, base_baud = 0) is a PL011 rev3
+[    0.140016] 1c0b0000.uart: ttyAMA2 at MMIO 0x1c0b0000 (irq = 15, base_baud = 0) is a PL011 rev3
+[    0.140319] 1c0c0000.uart: ttyAMA3 at MMIO 0x1c0c0000 (irq = 16, base_baud = 0) is a PL011 rev3
+[    0.140525] OF: amba_device_add() failed (-2) for /kmi@1c060000
+[    0.140598] OF: amba_device_add() failed (-2) for /kmi@1c070000
+[    0.140672] OF: /watchdog@1c0f0000: could not find phandle
+[    0.140706] ERROR: could not get clock /watchdog@1c0f0000:apb_pclk(1)
+[    0.140745] OF: amba_device_add() failed (-2) for /watchdog@1c0f0000
+[    0.140820] OF: /rtc@1c170000: could not find phandle
+[    0.140851] ERROR: could not get clock /rtc@1c170000:apb_pclk(0)
+[    0.140888] OF: amba_device_add() failed (-2) for /rtc@1c170000
