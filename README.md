@@ -21,7 +21,7 @@ cd ~/gem5_srm/parsec-3.0
 source env.sh
 parsecmgmt -a build -p blackscholes -c gcc-hooks
 
-![Terminal Output](images/blackhole_build.png)
+![TerminalOutput](images/blackhole_build.png)
 
 
 
